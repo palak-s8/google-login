@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login with Google</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Welcome 👋</h1>
+      <p>Login to continue</p>
+
+      <!-- 🌗 Theme Toggle -->
+      <label class="toggle">
+        <input type="checkbox" id="themeToggle" />
+        <span class="slider"></span>
+        <span class="mode-label">🌙 Dark Mode</span>
+      </label>
+
+      <!-- 🔐 Google Login Button -->
+      <button id="loginBtn">
+        <img src="https://img.icons8.com/color/48/google-logo.png" alt="Google" />
+        Sign in with Google
+      </button>
+
+      <!-- 👤 User Info Display -->
+      <div id="userInfo"></div>
+    </div>
+  </div>
+
+  <script type="module" src="script.js" defer></script>
+</body>
+</html>
+
+
